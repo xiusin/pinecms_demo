@@ -9,12 +9,12 @@
 <meta name="description" content="{{.Field["description"]}}" />
 <meta name="MobileOptimized" content="240"/>
 <link rel="shortcut icon" href="/favicon.ico"/>
-<link href="/assets/dedemao/css/stylev2.1.css" rel="stylesheet" type="text/css">
-<link href="/assets/dedemao/css/block.css" rel="stylesheet" type="text/css" />
-<script src="/assets/dedemao/js/ua.js" type="text/javascript"></script>
+<link href="/assets/example/css/stylev2.1.css" rel="stylesheet" type="text/css">
+<link href="/assets/example/css/block.css" rel="stylesheet" type="text/css" />
+<script src="/assets/example/js/ua.js" type="text/javascript"></script>
 <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
-<script src="/assets/dedemao/js/v2/jquery-cookie.js"></script>
-<script type="text/javascript" src="/assets/dedemao/js/7hot.js"></script>
+<script src="/assets/example/js/v2/jquery-cookie.js"></script>
+<script type="text/javascript" src="/assets/example/js/7hot.js"></script>
 <script language="javascript" type="text/javascript" src="{dede:global.cfg_cmsurl/}/include/dedeajax2.js"></script>
 <script language="javascript" type="text/javascript">
 <!--
@@ -70,7 +70,7 @@ function getDigg(aid)
 <!-- 文章内容页广告位1 -->
 {{yield myad(name="article1")}}
 	  </div>            <div class="post_content" id="paragraph">
-	   <script src="/assets/dedemao/js/v2/content_set.js"></script>
+	   <script src="/assets/example/js/v2/content_set.js"></script>
 	   <p class="content_copyright"><a class="s_tag" href="{{global["site_url"]}}" target="_blank">{{global["site_name"]}}</a>（<a class="s_tag" href="{dede:global.cfg_basehost/}" target="_blank">{{global["site_url"]}}</a>）：
 	   {{.Field["title"]}}</p>
     {{.Field["content"] | unsafe}}
@@ -100,5 +100,5 @@ function getDigg(aid)
  <div class="bx-recom">{{yield myad(name="footer")}}</div>
  </div>
  <div id="ft">{{include "footer.jet"}}
-<script src="/assets/dedemao/js/v2/common.js"></script>
+<script src="/assets/example/js/v2/common.js"></script>
 </body></html>

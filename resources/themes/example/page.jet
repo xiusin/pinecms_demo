@@ -6,12 +6,12 @@
 <meta name="keywords" content="{dede:field.keywords/}" />
 <meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
 
-<link href="/assets/dedemao/css/stylev2.1.css" rel="stylesheet" type="text/css">
-<link href="/assets/dedemao/css/style_list.css" rel="stylesheet" type="text/css" />
+<link href="/assets/example/css/stylev2.1.css" rel="stylesheet" type="text/css">
+<link href="/assets/example/css/style_list.css" rel="stylesheet" type="text/css" />
 
 <link rel="shortcut icon" href="/favicon.ico"/>
 <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script> 
-<script src="/assets/dedemao/js/v2/jquery-cookie.js"></script>
+<script src="/assets/example/js/v2/jquery-cookie.js"></script>
 
 <style>
 <!--
@@ -36,6 +36,6 @@ body,td,th {
   <!-- 链接 -->
   <!-- 页脚 -->
   {{include "footer.jet"}}
-<script src="/assets/dedemao/js/v2/common.js"></script>
+<script src="/assets/example/js/v2/common.js"></script>
 </body>
 </html>

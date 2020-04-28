@@ -12,10 +12,10 @@
     <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
     <meta http-equiv="expires" content="0">
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/rss/"/>
-    <link href="/assets/dedemao/css/stylev2.1.css" rel="stylesheet" type="text/css">
+    <link href="/assets/example/css/stylev2.1.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="/favicon.ico"/>
     <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
-    <script src="/assets/dedemao/js/v2/jquery-cookie.js"></script>
+    <script src="/assets/example/js/v2/jquery-cookie.js"></script>
 
 </head>
 <body class="index hello">
@@ -211,9 +211,9 @@
     <!-- 页脚 -->
     {{include "footer.jet"}}
 
-    <script src="/assets/dedemao/js/v2/common.js"></script>
+    <script src="/assets/example/js/v2/common.js"></script>
 
-    <script src="/assets/dedemao/js/v2/coin-slider.min.js"></script>
+    <script src="/assets/example/js/v2/coin-slider.min.js"></script>
     <script>$('#coin-slider').coinslider({width: 250,height: 320,spw: 3,sph: 2,effect: 'random',delay: 6000});</script>
 </body>
 </html>

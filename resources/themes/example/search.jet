@@ -4,12 +4,12 @@
 <title>搜索页_{{global["site_name"]}}</title>
 <meta name="keywords" content="{{global["site_keywords"]}}" />
 <meta name="description" content="{{global["site_description"]}}" />
-<link href="/assets/dedemao/css/stylev2.1.css" rel="stylesheet" type="text/css">
-<link href="/assets/dedemao/css/block.css" rel="stylesheet" type="text/css" />
+<link href="/assets/example/css/stylev2.1.css" rel="stylesheet" type="text/css">
+<link href="/assets/example/css/block.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="/favicon.ico"/>
 <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script> 
-<script src="/assets/dedemao/js/v2/jquery-cookie.js"></script>
-<script type="text/javascript" src="/assets/dedemao/js/7hot.js"></script>
+<script src="/assets/example/js/v2/jquery-cookie.js"></script>
+<script type="text/javascript" src="/assets/example/js/7hot.js"></script>
 </head>
 <body class="category">
 {{include "head.jet"}}
@@ -34,7 +34,7 @@
             <div id="ft">
             <!-- 页脚 -->
 {{include "footer.jet"}}
-<script src="/assets/dedemao/js/v2/common.js"></script> 
+<script src="/assets/example/js/v2/common.js"></script>
 </body>
 </html>
 
