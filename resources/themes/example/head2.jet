@@ -11,7 +11,7 @@
         <a href="{{field.Url}}" class="{{if field.HasSon}}item-link item-link-2{{else}}nav-item nav-item-2{{end}}">{{field.Catname}}</a>
         <div id="dy" class="menu feed">
             <ul class="mn_con">
-            {{yield channel(type="son") content}}<li><a href="{{typelink}}">{{typename}}</a></li>{{end}}
+            {{yield channel(type="son") content}}<li><a href="{{field.Url}}">{{field.Catname}}</a></li>{{end}}
             </ul>
         </div>
      </div>
